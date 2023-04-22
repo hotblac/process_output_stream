@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class Main {
+public class UnhandledStreams {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         Process p = Runtime.getRuntime().exec("./my_external_process.sh 5000");
