@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.concurrent.TimeUnit;
 
-public class HandledStreams {
+public class HandledStdOutStream {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         Process p = Runtime.getRuntime().exec("./my_external_process.sh 5000");
